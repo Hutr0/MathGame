@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // It is GitHub change
     
     @IBOutlet weak var randomText: UILabel!
     @IBOutlet weak var userText: UILabel!
