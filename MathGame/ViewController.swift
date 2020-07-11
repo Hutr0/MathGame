@@ -49,7 +49,6 @@ class ViewController: UIViewController {
         
         mutating func setNum(_ score: UInt32) -> String {
             
-            print("New Feature YYY")
             self.first = arc4random_uniform(score * 2) + score / 2
             self.second = arc4random_uniform(score * 2) + score / 2
             return "\(self.first) + \(self.second)"
